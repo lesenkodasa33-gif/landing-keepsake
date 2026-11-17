@@ -250,3 +250,248 @@ body {
         min-height: 140px;
     }
 }
+.work-cta {
+    padding: 35px 15px;
+    text-align: center;
+    border: 3px solid #0785d1;
+}
+
+.work-cta h2 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.services {
+    padding: 55px 0;
+}
+
+.services .section-heading {
+    margin-bottom: 30px;
+}
+
+.services__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.service-card {
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.service-card__icon {
+    width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 18px;
+    border-radius: 50%;
+    background: #f0f3f4;
+    color: #0785d1;
+    font-size: 25px;
+}
+
+.service-card h3 {
+    margin-bottom: 12px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.service-card p {
+    color: #888;
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+    .services__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .services__grid {
+        grid-template-columns: 1fr;
+    }
+}
+.stats {
+    padding: 35px 0;
+}
+
+.stats__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.stat strong {
+    color: #444;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.stat span {
+    color: #999;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.clients {
+    padding: 45px 0;
+}
+
+.clients__list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 15px 0 30px;
+    color: #999;
+    font-size: 15px;
+}
+
+.testimonial {
+    position: relative;
+    padding: 25px 30px;
+    background: #f0f3f4;
+}
+
+.testimonial__quote {
+    color: #fa5558;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.testimonial p {
+    margin-bottom: 18px;
+    color: #777;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.testimonial__author {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.testimonial__author strong {
+    color: #444;
+    font-size: 12px;
+}
+
+.testimonial__author span {
+    color: #999;
+    font-size: 11px;
+}
+
+@media (max-width: 600px) {
+    .stats__grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .clients__list {
+        justify-content: center;
+    }
+}
+.journal {
+    padding: 45px 0 55px;
+}
+
+.journal__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px 20px;
+}
+
+.journal-card {
+    display: flex;
+    gap: 15px;
+    min-width: 0;
+}
+
+.journal-card__image {
+    flex: 0 0 110px;
+    min-height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.journal-card__image--one {
+    background: #b5a48e;
+}
+
+.journal-card__image--two {
+    background: #41434d;
+}
+
+.journal-card__image--three {
+    background: #8dd1c5;
+}
+
+.journal-card__image--four {
+    background: #e8a99c;
+}
+
+.journal-card__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7px;
+}
+
+.journal-card__content span {
+    color: #999;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.journal-card__content h3 {
+    color: #444;
+    font-size: 13px;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.journal-card__content p {
+    color: #888;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.journal-card__content a {
+    color: #fa5558;
+    font-size: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.journal-card__content a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .journal__grid {
+        grid-template-columns: 1fr;
+    }
+
+    .journal-card__image {
+        flex-basis: 90px;
+        min-height: 100px;
+    }
+}
