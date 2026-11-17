@@ -11,251 +11,261 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Oswald:wght@300;400;500;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header class="header">
-        <div class="container header__inner">
+<header class="header">
+    <div class="container header__inner">
+        <a href="#" class="logo">Keepsake</a>
 
-            <a href="#" class="logo">Keepsake</a>
+        <nav class="navigation" aria-label="Main navigation">
+            <ul class="navigation__list">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#works">Our works</a></li>
+                <li><a href="#journal">Journal</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
 
-            <nav class="navigation">
-                <ul class="navigation__list">
-                    <li><a href="#" class="active">Home</a></li>
-                    <li><a href="#about">About us</a></li>
-                    <li><a href="#works">Our works</a></li>
-                    <li><a href="#journal">Journal</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+        <a href="#contact" class="header__button" aria-label="Contact us">♥</a>
+    </div>
+</header>
 
-            <a href="#contact" class="header__button">♥</a>
+<main>
 
+    <section class="hero">
+        <div class="container hero__inner">
+            <h1>We're Keepsake, a digital & branding agency</h1>
+            <p>Specializing in graphic design, website development, branding and digital experiences.</p>
+
+            <div class="hero__buttons">
+                <a href="#works" class="button button--primary">Our works</a>
+                <a href="#contact" class="button button--secondary">Get in touch</a>
+            </div>
         </div>
-    </header>
+    </section>
 
-    <main>
-        <section class="hero">
-            <div class="container">
-                <h1>We're Keepsake, a digital & branding agency</h1>
+    <section class="works" id="works">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Our awesome works</h2>
 
-                <p>
-                    Specializing in graphic design, website development,
-                    branding and digital experiences.
-                </p>
-
-                <div class="hero__buttons">
-                    <a href="#works" class="button button--primary">Our works</a>
-                    <a href="#about" class="button button--secondary">Get in touch</a>
+                <div class="works__filters">
+                    <button class="filter active">All</button>
+                    <button class="filter">Branding</button>
+                    <button class="filter">Identity</button>
+                    <button class="filter">Print</button>
+                    <button class="filter">Web</button>
+                    <button class="filter">Motion</button>
                 </div>
             </div>
-        </section>
 
-<section class="works" id="works">
-    <div class="container">
+            <div class="works__grid">
+                <article class="work-card">
+                    <img src="images/Default.png" alt="Mock-up tag project">
+                    <a href="#contact" class="work-card__overlay" aria-label="View project"><span>+</span></a>
+                </article>
 
-        <div class="section-heading">
-            <h2>Our Awesome Works</h2>
+                <article class="work-card">
+                    <img src="images/Default8.png" alt="Piecepaper project">
+                    <a href="#contact" class="work-card__overlay" aria-label="View project"><span>+</span></a>
+                </article>
 
-            <div class="works__filters">
-                <button class="filter active">All</button>
-                <button class="filter">Branding</button>
-                <button class="filter">Design</button>
-                <button class="filter">Print</button>
-                <button class="filter">Web</button>
+                <article class="work-card">
+                    <img src="images/Default6.png" alt="Creative design project">
+                    <a href="#contact" class="work-card__overlay" aria-label="View project"><span>+</span></a>
+                </article>
+
+                <article class="work-card">
+                    <img src="images/Default4.png" alt="Volume 16 project">
+                    <a href="#contact" class="work-card__overlay" aria-label="View project"><span>+</span></a>
+                </article>
+
+                <article class="work-card">
+                    <img src="images/Hover.png" alt="Keepsake profile project">
+                    <a href="#contact" class="work-card__overlay" aria-label="View project"><span>+</span></a>
+                </article>
+
+                <article class="work-card">
+                    <img src="images/Default9.png" alt="Design stationery project">
+                    <a href="#contact" class="work-card__overlay" aria-label="View project"><span>+</span></a>
+                </article>
+
+                <article class="work-card">
+                    <img src="images/Default2.png" alt="Wallst project">
+                    <a href="#contact" class="work-card__overlay" aria-label="View project"><span>+</span></a>
+                </article>
+
+                <article class="work-card">
+                    <img src="images/Default3.png" alt="John Doe design project">
+                    <a href="#contact" class="work-card__overlay" aria-label="View project"><span>+</span></a>
+                </article>
+
+                <article class="work-card">
+                    <img src="images/Default7.png" alt="Seal Fabric project">
+                    <a href="#contact" class="work-card__overlay" aria-label="View project"><span>+</span></a>
+                </article>
             </div>
         </div>
+    </section>
 
-        
-   <div class="works__grid">
-    <article class="work-card work-card--one">
-        <img src="images/Default.png" alt="Mock-up tag">
-        <a href="#contact" class="work-card__overlay" aria-label="View project"><span>+</span></a>
-    </article>
-
-    <article class="work-card work-card--two">
-        <img src="images/Default8.png" alt="Piecepaper project">
-        <a href="#contact" class="work-card__overlay" aria-label="View project"><span>+</span></a>
-    </article>
-
-    <article class="work-card work-card--three">
-        <img src="images/Default6.png" alt="Creative design project">
-        <a href="#contact" class="work-card__overlay" aria-label="View project"><span>+</span></a>
-    </article>
-
-    <article class="work-card work-card--four">
-        <img src="images/Default4.png" alt="Volume 16 project">
-        <a href="#contact" class="work-card__overlay" aria-label="View project"><span>+</span></a>
-    </article>
-
-    <article class="work-card work-card--five">
-        <img src="images/Hover.png" alt="Keepsake profile project">
-        <a href="#contact" class="work-card__overlay" aria-label="View project"><span>+</span></a>
-    </article>
-
-    <article class="work-card work-card--six">
-        <img src="images/Default9.png" alt="Design stationery project">
-        <a href="#contact" class="work-card__overlay" aria-label="View project"><span>+</span></a>
-    </article>
-
-    <article class="work-card work-card--seven">
-        <img src="images/Default2.png" alt="Wallst project">
-        <a href="#contact" class="work-card__overlay" aria-label="View project"><span>+</span></a>
-    </article>
-
-    <article class="work-card work-card--eight">
-        <img src="images/Default3.png" alt="John Doe design project">
-        <a href="#contact" class="work-card__overlay" aria-label="View project"><span>+</span></a>
-    </article>
-
-    <article class="work-card work-card--nine">
-        <img src="images/Default7.png" alt="Seal Fabric project">
-        <a href="#contact" class="work-card__overlay" aria-label="View project"><span>+</span></a>
-    </article>
-</div>
-
-    </div>
-</section><section class="work-cta" id="about">
-    <div class="container">
-        <h2>Would you love to work with us?</h2>
-        <a href="#contact" class="button button--primary">Get in touch</a>
-    </div>
-</section>
-
-<section class="services">
-    <div class="container">
-        <div class="section-heading">
-            <h2>What we do</h2>
+    <section class="work-cta" id="about">
+        <div class="container">
+            <h2>Would you love to work with us?</h2>
+            <a href="#contact" class="button button--primary">Get in touch</a>
         </div>
+    </section>
 
-        <div class="services__grid">
-            <article class="service-card">
-                <div class="service-card__icon">▣</div>
-                <h3>Web Design</h3>
-                <p>We create modern and user-friendly websites that help businesses grow.</p>
-            </article>
-
-            <article class="service-card">
-                <div class="service-card__icon">▤</div>
-                <h3>Graphic Design</h3>
-                <p>Creative visual solutions that make your brand stand out.</p>
-            </article>
-
-            <article class="service-card">
-                <div class="service-card__icon">◉</div>
-                <h3>Brand Identity</h3>
-                <p>We build unique brand identities that communicate your values.</p>
-            </article>
-
-            <article class="service-card">
-                <div class="service-card__icon">♥</div>
-                <h3>Illustration</h3>
-                <p>Original illustrations and creative graphics for your projects.</p>
-            </article>
-        </div>
-    </div>
-</section>
-<section class="stats">
-    <div class="container">
-        <div class="stats__grid">
-            <div class="stat">
-                <strong>120+</strong>
-                <span>Projects done</span>
+    <section class="services">
+        <div class="container">
+            <div class="section-heading">
+                <h2>What we do</h2>
             </div>
-            <div class="stat">
-                <strong>8</strong>
-                <span>Years in business</span>
-            </div>
-            <div class="stat">
-                <strong>64</strong>
-                <span>Happy clients</span>
-            </div>
-            <div class="stat">
-                <strong>15</strong>
-                <span>Team members</span>
+
+            <p class="section-description">We are a small team of designers and makers who help brands look their best online and offline.</p>
+
+            <div class="services__grid">
+                <article class="service-card">
+                    <div class="service-card__icon"><span>▣</span></div>
+                    <h3>Web design</h3>
+                    <p>Responsive sites and product interfaces that look sharp on every screen.</p>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-card__icon"><span>▤</span></div>
+                    <h3>Motion video</h3>
+                    <p>Explainers, logo animations and social clips that bring brands to life.</p>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-card__icon"><span>▰</span></div>
+                    <h3>Print design</h3>
+                    <p>Posters, packaging and stationery prepared to be printed right.</p>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-card__icon service-card__icon--heart"><span>♥</span></div>
+                    <h3>Illustration</h3>
+                    <p>Custom illustrations and icon sets in a style that is yours alone.</p>
+                </article>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section class="clients">
-    <div class="container">
-        <div class="section-heading">
-            <h2>Clients & good words</h2>
-        </div>
-
-        <div class="clients__list">
-            <span>HOLDING</span>
-            <span>Helsyon</span>
-            <span>1800</span>
-            <span>pinewood</span>
-            <span>VELA</span>
-        </div>
-
-        <div class="testimonial">
-            <span class="testimonial__quote">“</span>
-            <p>
-                Keepsake turned a vague brief into a brand we are proud of.
-                The team was fast, honest about trade-offs and obsessed with
-                the details.
-            </p>
-            <div class="testimonial__author">
-                <strong>Anna Smith</strong>
-                <span>Marketing Manager</span>
-            </div>
-        </div>
-    </div>
-</section>
-   <section class="journal" id="journal">
-    <div class="container">
-        <div class="section-heading">
-            <h2>From the journal</h2>
-        </div>
-
-        <div class="journal__grid">
-            <article class="journal-card">
-                <div class="journal-card__image journal-card__image--one">01</div>
-                <div class="journal-card__content">
-                    <span>Design / 12 April</span>
-                    <h3>Beautiful branding for modern businesses</h3>
-                    <p>Discover how thoughtful design can help your business stand out.</p>
-                    <a href="#contact">Read more</a>
+    <section class="stats">
+        <div class="container">
+            <div class="stats__grid">
+                <div class="stat">
+                    <strong>120+</strong>
+                    <span>Projects done</span>
                 </div>
-            </article>
-
-            <article class="journal-card">
-                <div class="journal-card__image journal-card__image--two">02</div>
-                <div class="journal-card__content">
-                    <span>Creative / 18 April</span>
-                    <h3>What makes a successful visual identity?</h3>
-                    <p>Learn about the key elements of a memorable brand identity.</p>
-                    <a href="#contact">Read more</a>
+                <div class="stat">
+                    <strong>8</strong>
+                    <span>Years in business</span>
                 </div>
-            </article>
-
-            <article class="journal-card">
-                <div class="journal-card__image journal-card__image--three">03</div>
-                <div class="journal-card__content">
-                    <span>Inspiration / 25 April</span>
-                    <h3>Creative ideas that inspire great projects</h3>
-                    <p>A closer look at the ideas and details behind creative work.</p>
-                    <a href="#contact">Read more</a>
+                <div class="stat">
+                    <strong>64</strong>
+                    <span>Happy clients</span>
                 </div>
-            </article>
-
-            <article class="journal-card">
-                <div class="journal-card__image journal-card__image--four">04</div>
-                <div class="journal-card__content">
-                    <span>Business / 30 April</span>
-                    <h3>Building a strong brand from the beginning</h3>
-                    <p>Simple principles that help create a consistent brand.</p>
-                    <a href="#contact">Read more</a>
+                <div class="stat">
+                    <strong>15</strong>
+                    <span>Design awards</span>
                 </div>
-            </article>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
+
+    <section class="clients">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Clients & good words</h2>
+            </div>
+
+            <p class="section-description">Some of the teams that trusted us with their brands.</p>
+
+            <div class="clients__list">
+                <span>NORDLY</span>
+                <span>Halcyon</span>
+                <span>ARCO</span>
+                <span>pinewood</span>
+                <span>VELA</span>
+                <span>ostra</span>
+            </div>
+
+            <div class="testimonial">
+                <span class="testimonial__quote">“</span>
+                <p>Keepsake turned a vague brief into a brand we are proud of. The team was fast, honest about trade-offs and obsessed with the details.</p>
+
+                <div class="testimonial__author">
+                    <span class="testimonial__avatar">OM</span>
+                    <div>
+                        <strong>Olena Marchenko</strong>
+                        <span>Marketing Lead, Nordly</span>
+                    </div>
+                </div>
+
+                <div class="testimonial__controls">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="journal" id="journal">
+        <div class="container">
+            <div class="section-heading">
+                <h2>From the journal</h2>
+            </div>
+
+            <div class="journal__grid">
+                <article class="journal-card">
+                    <img class="journal-card__image" src="images/Thumb.png" alt="Design article preview" width="150" height="150" loading="lazy">
+                    <div class="journal-card__content">
+                        <span>Design / 12 April</span>
+                        <h3>Beautiful branding for modern businesses</h3>
+                        <p>Discover how thoughtful design can help your business stand out.</p>
+                        <a href="#contact">Read more</a>
+                    </div>
+                </article>
+
+                <article class="journal-card">
+                    <img class="journal-card__image" src="images/Thumb2.png" alt="Creative article preview" width="150" height="150" loading="lazy">
+                    <div class="journal-card__content">
+                        <span>Creative / 18 April</span>
+                        <h3>What makes a successful visual identity?</h3>
+                        <p>Learn about the key elements of a memorable brand identity.</p>
+                        <a href="#contact">Read more</a>
+                    </div>
+                </article>
+
+                <article class="journal-card">
+                    <img class="journal-card__image" src="images/Thumb3.png" alt="Inspiration article preview" width="150" height="150" loading="lazy">
+                    <div class="journal-card__content">
+                        <span>Inspiration / 25 April</span>
+                        <h3>Creative ideas that inspire great projects</h3>
+                        <p>A closer look at the ideas and details behind creative work.</p>
+                        <a href="#contact">Read more</a>
+                    </div>
+                </article>
+
+                <article class="journal-card">
+                    <img class="journal-card__image" src="images/Thumb4.png" alt="Business article preview" width="150" height="150" loading="lazy">
+                    <div class="journal-card__content">
+                        <span>Business / 30 April</span>
+                        <h3>Building a strong brand from the beginning</h3>
+                        <p>Simple principles that help create a consistent brand.</p>
+                        <a href="#contact">Read more</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+</main>
+
 <footer class="footer" id="contact">
     <div class="container">
         <div class="footer__grid">
@@ -268,8 +278,8 @@
             <div class="footer__column">
                 <h3>Services</h3>
                 <a href="#about">Web design</a>
-                <a href="#about">Graphic design</a>
-                <a href="#about">Brand identity</a>
+                <a href="#about">Motion video</a>
+                <a href="#about">Print design</a>
                 <a href="#about">Illustration</a>
             </div>
 
@@ -282,9 +292,10 @@
 
             <div class="footer__column">
                 <h3>Stay in touch</h3>
-                <p>Subscribe to receive our latest news and updates.</p>
+                <p>Get our latest news and updates.</p>
                 <form class="footer__form">
-                    <input type="email" placeholder="Your email address" required>
+                    <label class="visually-hidden" for="footer-email">Your email address</label>
+                    <input id="footer-email" type="email" placeholder="Your email address" required>
                     <button type="submit">Subscribe</button>
                 </form>
             </div>
@@ -292,17 +303,15 @@
 
         <div class="footer__bottom">
             <p>© 2026 Keepsake. All rights reserved.</p>
-
             <div class="footer__socials">
-                <a href="#contact">f</a>
-                <a href="#contact">t</a>
-                <a href="#contact">in</a>
-                <a href="#contact">p</a>
+                <a href="#contact" aria-label="Facebook">f</a>
+                <a href="#contact" aria-label="Twitter">t</a>
+                <a href="#contact" aria-label="Instagram">in</a>
+                <a href="#contact" aria-label="Pinterest">p</a>
             </div>
         </div>
     </div>
 </footer>
- </main>
 
 </body>
 </html>
